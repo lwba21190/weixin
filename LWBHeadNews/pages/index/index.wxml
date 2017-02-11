@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" class="scroll-style" bindscrolltolower="toBottom">
+  <view class="view-group">
+    <block wx:for="{{info}}" wx:key="dataItems"  wx:for-item="item">
+        <view class="view-item">
+          <text class="view-item-title">{{item.title}}</text>
+          <view  class="view-item-images">
+            <block wx:for="{{item.images}}" wx:key="dataImages" wx:for-item="imageItem">
+                <image src="{{imageItem}}" class="view-item-image"/>
+            </block>
+          </view>
+          <view class="view-item-subinfo">
+            <text class="view-item-subinfo-author">{{item.source}}</text>
+            <text class="view-item-subinfo-comment">评论</text>
+            <text class="view-item-subinfo-comment-count">{{item.comment_count}}</text>
+          </view>
+      </view>
+    </block>
+    </view>
+  </scroll-view>
+</view>

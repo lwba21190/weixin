@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "LWB头条",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": "true"
+  }
+}

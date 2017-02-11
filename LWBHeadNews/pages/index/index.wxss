@@ -1,0 +1,59 @@
+/**index.wxss**/
+.scroll-style{
+  height:900px;
+  width:100%;
+}
+
+.view-group{
+  padding-left:5px;
+  padding-right: 5px;
+}
+
+.view-item{
+  display:flex;
+  flex-direction:column;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-color:#ccc;
+}
+
+.view-item-title{
+  font-weight:bold;
+}
+
+.view-item-images{
+  display:flex;width:100%;
+  justify-content:space-between;
+  margin-top:10px;
+}
+
+.view-item-image{
+  flex:1;
+  padding-left:2px;
+  padding-right:2px;
+  height:100px
+}
+
+.view-item-subinfo{
+  display:flex;
+  margin-top:10px;
+}
+
+.view-item-subinfo-author{
+  font-size:11pt;
+  color:#888888;
+}
+
+.view-item-subinfo-comment{
+  font-size:11pt;
+  color:#888888;
+  margin-left:10px;
+}
+
+.view-item-subinfo-comment-count{
+  font-size:11pt;
+  color:#888888;
+  margin-left:5px;
+}
